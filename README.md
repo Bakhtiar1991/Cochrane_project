@@ -7,11 +7,7 @@ Exploratory testing on Cochrane's webpage.
 
 Performed end to end automation testing on login option using page object model. Generated an html report using mochawesome. 
 
-Go to cypress/e2e/login_test.cy.js
-- Log in with right username and wrong password and click on my profile button. (it fails due to wrong credential.)
-- Log in with wrong username and right password and click on my profile button. (it fails due to wrong credential.)
-- Log in with wrong username and wrong password and click on my profile button. (it fails due to wrong credential.)
-- Log in with right username and right passwordand click on my profile button. (it passes.)
+Go to cypress/e2e/login_test.cy.js to find the test suit. I have written 3 negetive test where I provided wrong credential and then click on the my profile button and it fails. On last test with right username and right password it passed to click on the my profile button.
 
 Go to cypress/e2e/pages/login_page.js to find LoginPage class.
 
