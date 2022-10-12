@@ -16,6 +16,7 @@ Go to cypress/e2e/login_test.cy.js
 Go to cypress/e2e/pages/login_page.js to find LoginPage class.
 
 Go to cypress/videos to find the video of the test suit.
+
 Go to cypress/reports to find the html report file including assets.
 
 
